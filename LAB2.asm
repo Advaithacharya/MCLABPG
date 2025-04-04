@@ -1,0 +1,11 @@
+   AREA PGM2, CODE, READONLY
+START
+   MOV R1,#24;
+   MOV R2,#20;
+   MOV R3,#22;
+   ADD R4,R1,R2;
+   LSR R4,1;
+   ADD R4,R4,R3;
+   LSR R4,1;
+HERE B HERE
+   END
